@@ -14,8 +14,7 @@ import {
   TabBarIOS
 } from 'react-native';
 
-//es5
-var Icon = require('react-native-vector-icons/Ionicons');
+import Icon from 'react-native-vector-icons/Ionicons';
 
 var List = require('./app/list/index.js');
 console.log(List);
