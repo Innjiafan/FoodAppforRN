@@ -31,7 +31,7 @@ var fdApp = React.createClass({
 
   // displayName: 'TabBarExample',
 
-  getInitialState: function() {
+  getInitialState() {
     return {
       selectedTab: 'list',
       notifCount: 0,
@@ -39,7 +39,7 @@ var fdApp = React.createClass({
     };
   },
 
-  render: function() {
+  render() {
     return (
        <TabBarIOS >
         <Icon.TabBarItem
